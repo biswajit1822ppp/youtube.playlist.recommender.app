@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.search-container {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#playlistResults {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.playlist-item {
+    margin-bottom: 10px;
+}
+
+.playlist-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.playlist-item a:hover {
+    text-decoration: underline;
+}
